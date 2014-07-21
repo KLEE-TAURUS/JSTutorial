@@ -44,7 +44,7 @@ console.log("%o", person);
 
 ## JS类型转换
 
-JavaScript中包含五种数据类型
+** JavaScript中包含五种数据类型 **
 
 1. string
 2. number
@@ -52,8 +52,17 @@ JavaScript中包含五种数据类型
 4. object
 5. function
 
-三种对象类型
+** 三种对象类型 **
 
 1. Object
 2. Date
 3. Array
+
+** 不能包含值的两种数据类型 **
+
+1. null
+2. undefined
+
+** constructor属性 **
+
+** constructor **属性返回所有JavaScript变量的构造函数定义。
