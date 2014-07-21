@@ -45,6 +45,7 @@ console.log("%o", person);
 ## JS类型转换
 
 JavaScript中包含五种数据类型
+
 1. string
 2. number
 3. boolean
