@@ -39,7 +39,7 @@ var person = {
 };
 
 delete person.age;
-console.log("%o", person);
+console.log("%o", person); // 此处通过%o可以在console中显示person对象内容
 ```
 
 ## JS类型转换
