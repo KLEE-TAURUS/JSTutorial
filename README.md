@@ -116,3 +116,11 @@ patt.test("The best things in life are free!");
 ```
 /e/.exec("The best things in life are free!");
 ```
+
+## JS提升（Hoisting）
+
+**Hoisting** 是JS的默认行为，它将所有声明语句提升当前作用范围（scope）的最前端（当前脚本或当前方法）。
+
+对于JS中的初始化并不会提升，也就是说在提升变量声明的同时并不执行初始化操作。
+
+我们在编写程序时尽量不要采用JS提升特性，因为这种习惯很容易产生bug，尽可能在顶端声明你的变量。
