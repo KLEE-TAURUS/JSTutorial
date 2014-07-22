@@ -10,7 +10,7 @@
 JS的数据类型包括：String, Number, Boolean, Array, Object, Null和Undefined。
 
 Undefined和Null
-变量值未赋值时为**undefined**，变量可以通过null设置为空值（empty）
+变量值未赋值时为 **undefined** ，变量可以通过null设置为空值（empty）
 
 ## JS数字
 
@@ -65,4 +65,11 @@ console.log("%o", person); // 此处通过%o可以在console中显示person对�
 
 ### constructor属性
 
-**constructor**属性返回所有JavaScript变量的构造函数定义。
+**constructor** 属性返回所有JavaScript变量的构造函数定义。
+
+## JS错误处理
+
++ **try** 用来测试语句中是否出现错误
++ **catch** 用来处理错误
++ **throw** 用来创建自定义错误
++ **finally** 在 **try** 和 **catch** 后执行，无论他们处理结果如何，**finally** 语句始终会被执行.
