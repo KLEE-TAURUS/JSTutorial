@@ -97,3 +97,22 @@ try {
 
 + **search()** 方法查找匹配的字符序列并返回匹配字符序列的位置。
 + **replace()** 方法在字符串中替换匹配的字符序列。
+
+### 正则表达式Patterns
+
+[Regular Expression Patterns](www.w3schools.com/js/js_regexp.asp)
+
+### 使用正则对象
+
+使用 **test()** 方法
+
+```
+var patt = /e/;
+patt.test("The best things in life are free!");
+```
+
+使用 **exec()** 方法
+
+```
+/e/.exec("The best things in life are free!");
+```
