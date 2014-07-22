@@ -65,7 +65,7 @@ console.log("%o", person); // 此处通过%o可以在console中显示person对�
 
 ### constructor属性
 
-**constructor** 属性返回所有JavaScript变量的构造函数定义。
+**constructor** 属性返回所有 JavaScript 变量的构造函数定义。
 
 ## JS错误处理
 
