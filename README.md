@@ -65,7 +65,7 @@ console.log("%o", person); // 此处通过%o可以在console中显示person对�
 
 ### constructor属性
 
-**constructor** 属性返回所有 JavaScript 变量的构造函数定义。
+**constructor** 属性返回所有JavaScript变量的构造函数定义。
 
 ## JS错误处理
 
@@ -73,3 +73,27 @@ console.log("%o", person); // 此处通过%o可以在console中显示person对�
 + **catch** 用来处理错误
 + **throw** 用来创建自定义错误
 + **finally** 在 **try** 和 **catch** 后执行，无论他们处理结果如何，**finally** 语句始终会被执行.
+
+```
+try {
+    Block of code to try
+} catch (err) {
+    Block of code to handle errors
+} finally {
+    Block of code to be executed regardless of the try / catch result
+}
+```
+
+### 抛出异常的类型包括
+
+1. String
+2. Number
+3. Boolean
+4. Object
+
+## JS正则表达式
+
+在JavaScript中我们主要通过字符串的search()和replace()方法使用正则表达式。
+
++ **search()** 方法查找匹配的字符序列并返回匹配字符序列的位置。
++ **replace()** 方法在字符串中替换匹配的字符序列。
