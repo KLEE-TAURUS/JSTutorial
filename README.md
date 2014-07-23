@@ -124,3 +124,9 @@ patt.test("The best things in life are free!");
 对于JS中的初始化并不会提升，也就是说在提升变量声明的同时并不执行初始化操作。
 
 我们在编写程序时尽量不要采用JS提升特性，因为这种习惯很容易产生bug，尽可能在顶端声明你的变量。
+
+## DOM介绍
+
+HTML DOM模型构建出树形对象。
+
+![The HTML DOM Tree of Objects](/http://www.w3schools.com/js/pic_htmltree.gif)
