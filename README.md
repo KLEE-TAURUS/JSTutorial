@@ -125,8 +125,43 @@ patt.test("The best things in life are free!");
 
 我们在编写程序时尽量不要采用JS提升特性，因为这种习惯很容易产生bug，尽可能在顶端声明你的变量。
 
+## JS最佳实践
+
+避免使用全局变量，无论该变量为任何类型、对象或函数方法。
+
+### 永远不要将数字、字符串或Boolean值定义为对象
+
+### 永远不要使用 **new Object()** 方法
+
+1. 使用 {} 而不是 new Object()
+2. 使用 "" 而不是 new String()
+3. 使用 0 而不是 new Number()
+4. 使用 false 而不是 new Boolean()
+5. 使用 [] 而不是 new Array()
+6. 使用 /(:)/ 而不是 new RegExp()
+7. 使用 function (){} 而不是 new function()
+
+### 使用 === 进行比较
+
+使用 == 进行比较前会将变量进行类型转换，=== 在比较时将同时对值和类型进行比较。
+
+```
+0 == "";        // true
+1 == "1";       // true
+1 == true;      // true
+
+0 === "";       // false
+1 === "1";      // false
+1 === true;     // false
+```
+
+### 避免使用 eval() 函数
+
+eval函数会将参数中的字符串作为代码来执行。因此从安全角度考虑我们应尽量不使用它。
+
 ## DOM介绍
 
 HTML DOM模型构建出树形对象。
 
 ![The HTML DOM Tree of Objects](/http://www.w3schools.com/js/pic_htmltree.gif)
+
